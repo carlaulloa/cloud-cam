@@ -1,0 +1,121 @@
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+
+
+/* =========================== CSS =========================== */
+@media only screen and (min-width : 600px) {
+    #form-button{
+        margin-bottom: -35px;
+    }
+}
+
+
+#chart-content-material{
+    margin-bottom: 35px;
+}
+#form-button{
+    width: 100%;
+    color: #353535;
+}
+
+#reports-button{
+    color: #353535;
+}
+#reports-button:hover{
+    background: #03a9f4 !important; /* #03a9f4 light-blue */
+    color: #f1f1f1 !important;
+}
+
+.container-front{
+    z-index: 2;
+    position: relative;
+}
+
+.nutrition{
+    background-color: #A5CD39;
+}
+.nutrition-text{
+    color: #A5CD39 !important;
+}
+
+.parallax-container-large{
+    height: 580px;
+    padding-top: 35px;
+}
+
+.parallax-container-large::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.select-dropdown li img{
+    height: 30px;
+    margin: 10px 5px 15px 15px;
+    opacity: 0.6;
+    width: 40px;
+}
+
+.tabs{
+    margin-bottom: 30px;
+}
+
+.tabs .indicator{
+    background-color: #fbc02d;
+}
+
+.dropdown-content li > span{
+    color: #757575;
+}
